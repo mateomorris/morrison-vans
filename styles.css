@@ -1,5 +1,8 @@
 /* Default content styles */
 
+.heading {
+}
+
 .primo-content {
   font-size: 1.125rem;
   --text-opacity: 1;
@@ -57,12 +60,11 @@
   }
 
 @media (min-width: 1024px) {
-  .primo-content h1 {
-    font-size: 3rem;
-  }
+    .primo-content h1 {
+      font-size: 3rem;
+    }
 
-  .primo-content h2 {
-    font-size: 2.25rem;
+    .primo-content h2 {
+      font-size: 2.25rem;
+    }
   }
-}
-  
