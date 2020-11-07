@@ -1,3 +1,8 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .primo-content {
   font-size: 1.125rem;
   --text-opacity: 1;
@@ -5,7 +10,8 @@
   color: rgba(74, 85, 104, var(--text-opacity));
   margin-bottom: 4rem;
 }
-  .primo-content h2 {
+
+.primo-content h2 {
     font-weight: 600;
     font-size: 2.25rem;
     --text-opacity: 1;
@@ -13,7 +19,8 @@
     color: rgba(45, 55, 72, var(--text-opacity));
     padding-bottom: 1rem;
   }
-  .primo-content h2:after {
+
+.primo-content h2:after {
     content: '';
     display: block;
     --bg-opacity: 1;
@@ -24,7 +31,8 @@
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
-  .primo-content h2 + p {
+
+.primo-content h2 + p {
     font-weight: 500;
     font-size: 1.25rem;
   }
