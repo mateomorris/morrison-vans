@@ -1,70 +1,30 @@
-/* Default content styles */
-
-.heading {
-}
-
 .primo-content {
   font-size: 1.125rem;
   --text-opacity: 1;
-  color: #374151;
-  color: rgba(55, 65, 81, var(--text-opacity));
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
+  margin-bottom: 4rem;
 }
-
-.primo-content h1 {
-    font-size: 1.875rem;
-    font-weight: 500;
-  }
-
-.primo-content h2 {
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-
-.primo-content ol {
-    list-style-type: decimal;
-  }
-
-.primo-content ul {
-    list-style-type: disc;
-    list-style-position: inside;
-  }
-
-.primo-content ul p {
-      display: inline;
-    }
-
-.primo-content ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-  }
-
-.primo-content a {
+  .primo-content h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
     --text-opacity: 1;
-    color: #1c64f2;
-    color: rgba(28, 100, 242, var(--text-opacity));
-    text-decoration: underline;
+    color: #2d3748;
+    color: rgba(45, 55, 72, var(--text-opacity));
+    padding-bottom: 1rem;
   }
-
-.primo-content blockquote {
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    padding: 1.5rem;
-  }
-
-.primo-content mark {
-    --text-opacity: 1;
-    color: #161e2e;
-    color: rgba(22, 30, 46, var(--text-opacity));
+  .primo-content h2:after {
+    content: '';
+    display: block;
     --bg-opacity: 1;
-    background-color: #fce96a;
-    background-color: rgba(252, 233, 106, var(--bg-opacity));
+    background-color: #f7fafc;
+    background-color: rgba(247, 250, 252, var(--bg-opacity));
+    width: 2rem;
+    height: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
-
-@media (min-width: 1024px) {
-    .primo-content h1 {
-      font-size: 3rem;
-    }
-
-    .primo-content h2 {
-      font-size: 2.25rem;
-    }
+  .primo-content h2 + p {
+    font-weight: 500;
+    font-size: 1.25rem;
   }
