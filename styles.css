@@ -3,7 +3,7 @@
   margin-right: auto;
 }
 
-.primo-content {
+.primo-copy {
   font-size: 1.125rem;
   --text-opacity: 1;
   color: #4a5568;
@@ -11,7 +11,7 @@
   margin-bottom: 4rem;
 }
 
-.primo-content h2 {
+.primo-copy h2 {
     font-weight: 600;
     font-size: 2.25rem;
     --text-opacity: 1;
@@ -20,7 +20,7 @@
     padding-bottom: 1rem;
   }
 
-.primo-content h2:after {
+.primo-copy h2:after {
     content: '';
     display: block;
     --bg-opacity: 1;
@@ -32,7 +32,7 @@
     margin-bottom: 0.5rem;
   }
 
-.primo-content h2 + p {
+.primo-copy h2 + p {
     font-weight: 500;
     font-size: 1.25rem;
   }
